@@ -117,11 +117,7 @@ html[data-bs-theme="dark"] .bg-white-black {
     }
 }
 
-@media (max-width: 991.98px) {
-    body {
-        background-attachment: scroll !important;
-    }
-}
+
 
 svg {
     display: block;
@@ -159,8 +155,16 @@ svg {
 
 /* Background dasar untuk seluruh halaman */
 body {
-    background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center fixed !important;
+    background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center !important;
     background-size: cover !important;
+}
+
+@media (max-width: 991.98px) {
+    body {
+        background-attachment: scroll !important;
+        background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center !important;
+        background-size: cover !important;
+    }
 }
 
 /* Section utama dengan background hitam transparan */
@@ -188,4 +192,16 @@ body {
 }
 #home > .position-relative {
     width: 100%;
+}
+
+
+.vh-100, [style*="height: 100vh"] {
+    height: 100vh !important;
+    min-height: 100vh !important;
+}
+@media (max-width: 767.98px) {
+    .vh-100, [style*="height: 100vh"] {
+        height: 100dvh !important;
+        min-height: 100dvh !important;
+    }
 }

@@ -193,3 +193,15 @@ body {
 #home > .position-relative {
     width: 100%;
 }
+
+
+.vh-100, [style*="height: 100vh"] {
+    height: 100vh !important;
+    min-height: 100vh !important;
+}
+@media (max-width: 767.98px) {
+    .vh-100, [style*="height: 100vh"] {
+        height: 100dvh !important;
+        min-height: 100dvh !important;
+    }
+}
