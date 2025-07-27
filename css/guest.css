@@ -155,7 +155,7 @@ svg {
 
 /* Background dasar untuk seluruh halaman */
 body {
-    background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center fixed !important;
+    background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center !important;
     background-size: cover !important;
 }
 
