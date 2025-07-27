@@ -58,14 +58,14 @@ html[data-bs-theme="dark"] .btn-transparent {
     background-color: transparent !important;
 } */
 
-/* Welcome Page: hanya tampilkan background loading-page, tutupi background body */
+
 .loading-page,
 #welcome.loading-page {
-    background-image: url('../assets/images/bg_pembuka.jpeg');
+    background-image: url('../assets/images/bg_pembuka_upscl1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #000 !important; /* atau #111 untuk hitam, atau warna lain */
+    background-color: #000 !important; 
     position: fixed;
     inset: 0;
     width: 100%;
@@ -117,6 +117,12 @@ html[data-bs-theme="dark"] .bg-white-black {
     }
 }
 
+@media (max-width: 991.98px) {
+    body {
+        background-attachment: scroll !important;
+    }
+}
+
 svg {
     display: block;
     line-height: 0;
@@ -134,7 +140,7 @@ svg {
 }
 
 #welcome {
-    background-image: url('../assets/images/bg_pembuka.jpeg');
+    background-image: url('../assets/images/bg_pembuka_upscl1.png');
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +159,7 @@ svg {
 
 /* Background dasar untuk seluruh halaman */
 body {
-    background: url('../assets/images/bg_dasar.jpeg') no-repeat center center fixed !important;
+    background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center fixed !important;
     background-size: cover !important;
 }
 

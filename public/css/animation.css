@@ -19,6 +19,7 @@
     width: 0.25rem;
     height: 0.625rem;
     animation: scroll 3s linear infinite;
+    background: #eeeeee !important;
 }
 
 .mouse-animation {
