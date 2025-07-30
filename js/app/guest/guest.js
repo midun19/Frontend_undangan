@@ -255,7 +255,7 @@ export const guest = (() => {
         const data = new URLSearchParams({
             action: 'TEMPLATE',
             text: 'The Wedding of Febri and Amalia',
-            dates: `${formatDate('2023-03-15 10:00')}/${formatDate('2023-03-15 11:00')}`,
+            dates: `${formatDate('2025-08-10 14:00')}/${formatDate('2025-08-10 15:30')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
             location: 'Jl. Cisaranten Kulon No.6A, Cisaranten Kulon, Kec. Arcamanik, Kota Bandung, Jawa Barat 40293',
             ctz: config.get('tz'),

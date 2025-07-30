@@ -163,11 +163,10 @@ body {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    /* Untuk mengurangi glitch di beberapa browser mobile */
+    /* Untuk mengurangi glitch di beberapa browser mobile
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0);
+    -webkit-transform: translateZ(0); */
 }
-
 
 /* Hilangkan media query yang mengubah background-attachment menjadi scroll */
 @media (max-width: 991.98px) {
