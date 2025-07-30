@@ -155,7 +155,7 @@ svg {
 
 /* Background dasar untuk seluruh halaman */
 body {
-    background: url('../assets/images/bg_dasar_upscl1.png') no-repeat center center fixed !important;
+    background: url('../assets/images/bg_dasar2.jpg') no-repeat center center fixed !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -167,6 +167,7 @@ body {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
 }
+
 
 /* Hilangkan media query yang mengubah background-attachment menjadi scroll */
 @media (max-width: 991.98px) {
@@ -213,3 +214,4 @@ body {
         min-height: 100dvh !important;
     }
 }
+
